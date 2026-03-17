@@ -30,6 +30,9 @@ This project is a Retrieval-Augmented Generation (RAG) pipeline that answers que
    python rag_pipeline.py
    ```
 
+   <img width="336" height="233" alt="image" src="https://github.com/user-attachments/assets/748d5410-91ce-41fa-8af1-b738d031ec23" />
+
+
 ## 🔧 Notes
 - If you do not provide an HF token, the script will try to use local models, but may fail due to NumPy compatibility issues on some systems.
 - The script caches embeddings in `./chroma_db/` so reruns are fast.
